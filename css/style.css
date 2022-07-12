@@ -5,11 +5,12 @@
     --white-color:#E5E5E5;
     --background-color:#2F303A;
     --second-background-color:#F5F4FA;
+    --black-color:#000000;
+    --gray-color:#757575;
     
 }
 
 body{
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
 
     background-color: var(--primary-color);
@@ -23,7 +24,7 @@ body{
     list-style: none;
 }
 .logo-top{
-    color: #000000;
+    color: var(--black-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -48,7 +49,7 @@ body{
     text-decoration: none;
 }
 .auth-nav .link{
-    color: #757575;
+    color: var(--gray-color);
     font-weight: 500;
     font-size: 14px;
 line-height: 1.1;
@@ -116,6 +117,7 @@ line-height: 1.9;
 
 text-align: center;
 letter-spacing: 0.06em;
+border: none;
 }
 
 /* --------------FOOTER */
@@ -142,4 +144,38 @@ line-height: 1.7;
 .contact-info{
     color: rgba(255, 255, 255, 0.6);
 
+}
+
+/*------------------------ PORTFOLIO */
+
+.filter-button{
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+
+text-align: center;
+letter-spacing: 0.03em;
+border: none;
+}
+.filter-button:hover,
+.filter-button:focus{
+
+    background-color: var(--accent-text-color);
+    cursor: pointer;
+}
+.projects-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+}
+.projects-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+
+    letter-spacing: 0.03em;
 }
